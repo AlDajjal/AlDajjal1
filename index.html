@@ -1,5 +1,33 @@
 <html>
-  <h1>my form ...</h1>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body style="text-align: center;">
+    <ul class="nav nav-tabs">
+      <li class="nav-item">
+        <a class="nav-link active" href="#">Lobby</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">News</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Contact</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true"
+          >Info</a
+        >
+      </li>
+    </ul>
+  </body>
+  <h1>Messi Vs Ronaldo Form...</h1>
   <form action="http://jkorpela.fi/cgi-bin/echo.cgi">
     User Name<input type="text" name="usr" required /> <br />
     Password<input
@@ -18,9 +46,41 @@
       <option value="2">NYC</option>
       <option value="3">London</option>
       <option value="4">Barcelona</option>
-      <option value="5">Madrid</option>
+      <option value="5">Other</option>
     </select>
   </form>
 
-  <body></body>
+  <button type="button" class="btn btn-primary">Pictures</button>
+<button type="button" class="btn btn-secondary">Videos</button>
+<button type="button" class="btn btn-success">Gifs</button>
+<button type="button" class="btn btn-danger">Emoji</button>
+
+<table>
+    <tr>
+        
+
+<td><div class="card" style="width: 18rem;">
+    <img src="messi.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Messi</h5>
+      <p class="card-text">The Greatest of all time.</p>
+      <a href=https://en.wikipedia.org/wiki/Lionel_Messi"" class="btn btn-primary">History</a>
+    </div>
+  </div>
+
+<td><div class="card" style="width: 18rem;">
+  <img src="ronaldo.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Ronaldo</h5>
+    <p class="card-text">Penaldo.</p>
+    <a href="https://en.wikipedia.org/wiki/Cristiano_Ronaldo" class="btn btn-primary">History</a>
+  </div>
+</div>
+</td>
+</tr>
+
+</table>
+
+<A href="B.html">But Fellaini is the best</A>
+</body>
 </html>
